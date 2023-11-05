@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+#love{
+	position: relative;
+	height: 250px;
+	width: 300px;
+	border: 0px solid black;
+	border-radius: 10%;
+	background-image: url(kawayi.png);
+	background-size: cover;
+	
+}
+.play{
+	color: white;
+	background-color: #292525;
+	margin:0 6px;
+}
+#love .mlist{
+	margin:10px;
+	background-color: rgba(1,1,1,0.5);
+	height: 165px;
+	border-radius: 5px;
+
+}
+#love ul li{
+	line-height:30px;
+	text-align: center;
+	cursor:pointer;	
+	border-radius: 4px;
+}
+#love ul li:hover{
+	line-height: 45px;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: #5D5859;
+	border-radius: 6px;
+	font-size: 24px;
+}
